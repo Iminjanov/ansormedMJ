@@ -12,7 +12,7 @@ body{
     background-color: #fff;
 }
 
-*{
+*:focus{
 outline: 2px  dotted #de2e54;
 outline-offset: 2px;
 }
