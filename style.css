@@ -176,6 +176,76 @@ body {
 }
 
 
+/* INDEX SERVICES */
+.index-service{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.index-services-heading{
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #222;
+    margin-bottom: 56px;
+    text-align: center;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+
+.index-services-actions{
+    display: flex;
+    justify-content: center;
+}
+
+
+.index-services-list{
+    padding: 0;
+    margin: 0;
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+
+.index-service{
+    display: flex;
+    align-items:center;
+}
+
+
+.index-service-img{
+    width: 200px;
+    border-radius:24px;
+    height: 200px;
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.30);
+    margin-right: 64px;
+    object-fit: cover;
+}
+
+.index-services-content{
+    width: 600px;
+}
+
+.index-service-description{
+    color: #444;
+}
+
+
+.index-service-title{
+    margin-top: 0;
+    color: #222;
+    margin-bottom: 24px;
+}
+
+.index-services-item:not(:last-child){
+margin-bottom: 80px;
+}
+
+
+
 /* SITE-FOOTER */
 
 .site-footer{
