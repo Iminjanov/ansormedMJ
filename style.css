@@ -17,6 +17,10 @@ body {
   outline-offset: 2px;
 }
 
+html{
+  scroll-behavior: smooth ;
+}
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -135,6 +139,18 @@ body {
   background-color: #de2e54;
 }
 
+.main-link-outline{
+  border-color:#fff;
+  background-color:transparent;
+  color: #fff;
+}
+
+
+.main-link-outline:hover{
+  color: #fff;
+  background-color: #de2e54;
+  border-color: transparent;
+}
 
 /* HERO */
 .hero{
@@ -246,6 +262,34 @@ body {
 margin-bottom: 80px;
 }
 
+/* CTA */
+
+.cta{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+.cta-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links-item:not(:last-child){
+  margin-right: 40px;
+}
+
+
+.cta-heading{
+  text-align: center;
+  margin-top: 0;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+font-size: 36px;
+line-height: 1.2;
+  margin-bottom: 40px;
+}
 
 
 /* SITE-FOOTER */
